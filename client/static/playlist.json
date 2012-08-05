@@ -1,0 +1,42 @@
+[
+    {
+        "id" : "last-schala-mix",
+        "artist" : "Brandon Strader, halc",
+        "song" : "The Last Schala Mix Ever",
+        "ocr" : "http://ocremix.org/remix/OCR02253/",
+        "cdn" : [
+            "http://c59915.r15.cf2.rackcdn.com/last-schala-mix.mp3",
+            "http://c59915.r15.cf2.rackcdn.com/last-schala-mix.ogg"
+        ]
+    },
+    {
+        "id" : "chrono-moonstone",
+        "artist" : "LSD, Shnabubula",
+        "song" : "Chrono Moonstone",
+        "ocr" : "http://ocremix.org/remix/OCR01797/",
+        "cdn" : [
+            "http://c59915.r15.cf2.rackcdn.com/chrono-moonstone.mp3",
+            "http://c59915.r15.cf2.rackcdn.com/chrono-moonstone.ogg"
+        ]
+    },
+    {
+        "id" : "incredible-robot",
+        "artist" : "Star Salzman",
+        "song" : "TheIncredibleSingingRobot",
+        "ocr" : "http://ocremix.org/remix/OCR00988/",
+        "cdn" : [
+            "http://c59915.r15.cf2.rackcdn.com/incredible-robot.mp3",
+            "http://c59915.r15.cf2.rackcdn.com/incredible-robot.ogg"
+        ]
+    },
+    {
+        "id" : "place-we-knew",
+        "artist" : "Claado Shou, Jillian Aversa, Reuben Kee",
+        "song" : "The Place We Knew",
+        "ocr" : "http://ocremix.org/remix/OCR01458/",
+        "cdn" : [
+            "http://c59915.r15.cf2.rackcdn.com/place-we-knew.mp3",
+            "http://c59915.r15.cf2.rackcdn.com/place-we-knew.ogg"
+        ]
+    }
+]

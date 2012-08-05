@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Solstice Submarine</title>
+        <meta name="viewport" content="width=device-width,initial-scale=0.5">
+
+        <link rel="stylesheet" media="all" href="/stylesheets/normalize.css" />
+        <style type="text/css">
+
+            body, html {
+
+                margin: 0;
+                padding: 0;
+
+                overflow: hidden;
+
+                font-family: "Helvetica Neue", Arial, sans-serif;
+                color: #fff;
+
+            }
+
+            a, img {
+
+                display: block;
+                margin: 0;
+                padding: 0;
+                line-height: 0;
+            }
+
+            #sub, #ship, #sound-off {
+
+                visibility: hidden;
+                display: block;
+                position: absolute;
+                top: -1000px;
+                left: -1000px;
+                margin: 0;
+                padding: 0;
+            }
+
+            #greeting {
+
+                display: block;
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+                z-index: 2;
+                margin: 0;
+                padding: 0;
+            }
+
+            #tweet {
+
+                display: block;
+                position: absolute;
+                top: 20px;
+                right: 20px;
+                z-index: 2;
+                margin: 0;
+                padding: 0;
+            }
+
+            #copyright {
+
+                display: block;
+                position: absolute;
+                bottom: 20px;
+                right: 330px;
+                z-index: 2;
+                margin: 0;
+                padding: 0;
+            }
+
+            #attribution {
+
+                display: block;
+                position: absolute;
+                bottom: 20px;
+                right: 20px;
+                margin: 0;
+                padding: 0;
+            }
+
+            #sound {
+
+                display: block;
+                position: absolute;
+                bottom: 20px;
+                right: 700px;
+                margin: 0;
+                padding: 0;
+            }
+
+            canvas {
+
+                display: block;
+                position: relative;
+                top: 0px;
+                left: 0px;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <img id="sub" src="/images/sub.png" alt="" />
+        <img id="ship" src="/images/ship.png" alt="" />
+        <img id="sound-off" src="/images/sound-off.png" alt="" />
+        <canvas id="canvas"></canvas>
+        <img id="greeting" src="/images/seasons-greetings.png" alt="Seasons greetings!" />
+
+        <a id="sound" href="javascript:void(0);">
+            <img src="/images/sound-on.png" alt="Music is playing!" />
+        </a>
+        <img id="copyright" src="/images/copyright.png" alt="Copyright 2011 Macaque Attack" />
+        <a id="attribution" href="http://ocremix.org" target="_blank">
+            <img src="/images/music-from-ocremix.png" alt="Music from OCRemix" />
+        </a>
+        <a id="tweet" href="javascript:void(0);">
+            <img src="/images/tweet.png" alt="Send us a tweet!" />
+        </a>
+
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/javascripts/wave.js"></script>
+    </body>
+</html>
